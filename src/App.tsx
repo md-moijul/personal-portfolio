@@ -1,12 +1,13 @@
 import './App.css'
-import { Button } from './components/ui/button'
 
 function App() {
 
     return (
-        <main className='min-h-screen bg-red-500 min-w-screen'>
-            <Button variant='outline'>hello world</Button>
-        </main>
+        <>
+            <h1 className="text-3xl font-bold underline bg-red-600">
+                Hello world!
+            </h1>
+        </>
     )
 }
 
